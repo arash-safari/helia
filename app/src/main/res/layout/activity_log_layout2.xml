@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityLogLayout2Activity">
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatTextView
+            android:text="Select sleep duration"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/select_sleep_duration"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:layout_height="60dp">
+
+        </android.support.v7.widget.AppCompatSpinner>
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_marginTop="40dp"
+            android:padding="20dp"
+            android:text="Select quality of sleep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/select_quilify_sleep"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:layout_height="60dp">
+
+        </android.support.v7.widget.AppCompatSpinner>
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:text="NEXT"
+        android:layout_height="60dp" />
+</RelativeLayout>

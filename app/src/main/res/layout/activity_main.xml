@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <android.support.v7.widget.AppCompatTextView
+        android:text="Welcome to the SPINE App"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/modules"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="MODULES" />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/activity_log"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ACTIVITY LOG" />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/more_information"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="MORE INFORMATION" />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/ask_a_nurse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ASK A NURSE" />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/goal_setting"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="GOAL SETTING" />
+
+</LinearLayout>

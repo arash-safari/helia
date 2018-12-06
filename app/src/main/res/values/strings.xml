@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Helia</string>
+    <string name="no_error">no error</string>
+    <string name="error_parameter_wrong">error parameter wrong</string>
+    <string name="error_json_format">error json format</string>
+    <string name="error_server">error server</string>
+    <string name="error_status">error status</string>
+    <string name="error_application">error application</string>
+    <string name="error_unknown">error unknown</string>
+    <string name="error_timeout">error timeout</string>
+    <string name="error_noConnection">error noConnection</string>
+    <string name="error_network">error network</string>
+</resources>

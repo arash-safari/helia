@@ -1,0 +1,76 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:2560049071094046679",
+      "lastPropertyId": "8:4709153173334001037",
+      "name": "ActivityLog",
+      "properties": [
+        {
+          "id": "1:8429682066440228327",
+          "name": "id"
+        },
+        {
+          "id": "2:4285756761659769066",
+          "name": "activity"
+        },
+        {
+          "id": "4:1544562868695646741",
+          "name": "duration"
+        },
+        {
+          "id": "5:2857159803928016705",
+          "name": "sleepQuality"
+        },
+        {
+          "id": "6:5639858479993604247",
+          "name": "sleepDuration"
+        },
+        {
+          "id": "7:1425066502868306312",
+          "name": "intensity"
+        },
+        {
+          "id": "8:4709153173334001037",
+          "name": "date"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:8663787988639573417",
+      "lastPropertyId": "3:7538312403312258856",
+      "name": "Goal",
+      "properties": [
+        {
+          "id": "1:7095063711134488535",
+          "name": "id"
+        },
+        {
+          "id": "2:1535921837324555547",
+          "name": "name"
+        },
+        {
+          "id": "3:7538312403312258856",
+          "name": "status"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:8663787988639573417",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    8345265541068111292
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
